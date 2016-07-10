@@ -2,7 +2,7 @@
 layout: post
 title:  "Movie Informer iOS app"
 date:   2016-07-06
-img: img/portfolio/screenshot.png
+img: img/portfolio/Screenshot.png
 modalID: modalApp
 category: Design
 ---
