@@ -27,6 +27,7 @@
 					<div>
 						<input type="hidden"  name="_subject" value="New submission!">
 						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="//www.rvoss.com/thanks.html" />
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
@@ -42,16 +43,8 @@
 							<button id="sendMessage" type="submit" class="btn btn-success btn-lg">Send</button>
 						</div>
 						<script>
-						$("form").on("submit", function() {
-						    $.ajax({
-						        url: "https://formspree.io/ronvoss@rvoss.com", 
-						        method: "POST",
-						        data: {message: "hello"},
-						        dataType: "json"
-						    });
-						    alert('Thanks for the email, we\'ll be in touch promptly.');
-						    return false;
-						});
+						    var contactform =  document.getElementById('contactForm');
+						    contactform.setAttribute('action', 'https://formspree.io/' + 'ronvoss' + '@' + 'rvoss' + '.' + 'com');
 						</script>
 					</div>
 				</form>
