@@ -9,7 +9,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<form  action="https://formspree.io/ronvoss@rvoss.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+				<form id="contactForm" method="POST">
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Name</label>
@@ -45,7 +45,7 @@
 						var message = "";
 
 						$("#sendMessage").on("click", function() {
-						    message = $("#contact").serialize();
+						    message = $("#contactForm").serialize();
 						    $.ajax({
 						        url: "//formspree.io/ronvoss@rvoss.com", 
 						        method: "POST",
