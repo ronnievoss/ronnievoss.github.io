@@ -22,10 +22,12 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 
+var message = "";
+
 $("#sendMessage").on("click", function() {
     message = $("#contactform").serialize();
     $.ajax({
-        url: "//formspree.io/ronvoss@rvoss.com", 
+        url: "//formspree.io/dynamicrealities@gmail.com", 
         method: "POST",
         data: {message: message},
         dataType: "json"
