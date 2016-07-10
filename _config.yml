@@ -10,7 +10,7 @@ title: Ronnie Voss
 email: ronvoss@rvoss.com
 description: > # this means to ignore newlines until "baseurl:"
   iOS / Web Developer
-baseurl: /ronnievoss/ # the subpath of your site, e.g. /blog
+baseurl: /ronnievoss # the subpath of your site, e.g. /blog
 url: "https://ronnievoss.github.io" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
