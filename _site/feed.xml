@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ronnie Voss</title>
+    <description>iOS / Web Developer
+</description>
+    <link>http://www.rvoss.com/</link>
+    <atom:link href="http://www.rvoss.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 09 Jul 2016 20:32:18 -0500</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 20:32:18 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Movie Informer iOS app</title>
+        <description>&lt;p&gt;Introducing Movie Informer app for iPhones running iOS 8 or later. This app is a fast and easy way to get movie information anytime and anywhere. You can browse titles by category including Now Playing, Popular and Upcoming. A handy Search tool is also included to look up your favorite movies as well. Details are provided for each title including Release Date, Genre, Runtime and Popularity. A built-in player allows movie trailers to be viewed for most titles.&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://itunes.apple.com/us/app/movie-informer/id1035141157?mt=8&quot;&gt;&lt;img src=&quot;img/portfolio/appstore-badge.png&quot; alt=&quot;App Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://www.rvoss.com/design/2016/07/06/movie-informer.html</link>
+        <guid isPermaLink="true">http://www.rvoss.com/design/2016/07/06/movie-informer.html</guid>
+        
+        
+        <category>Design</category>
+        
+      </item>
+    
+  </channel>
+</rss>
