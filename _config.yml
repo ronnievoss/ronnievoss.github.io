@@ -13,6 +13,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: # the subpath of your site, e.g. /blog
 url: "http://www.rvoss.com" # the base hostname & protocol for your site
 
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
 # Social media profiles - feel free to add more here
 #twitter_username: RonnieVoss
 github_username:  RonnieVoss
