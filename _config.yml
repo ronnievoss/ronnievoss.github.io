@@ -11,7 +11,7 @@ email: ronvoss@rvoss.com
 description: > # this means to ignore newlines until "baseurl:"
   iOS / Web Developer
 baseurl: # the subpath of your site, e.g. /blog
-url:  # the base hostname & protocol for your site
+url: "http://www.rvoss.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 #twitter_username: RonnieVoss
