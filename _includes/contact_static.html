@@ -39,8 +39,23 @@
 					<div id="success"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg">Send</button>
+							<button id="sendMessage" class="btn btn-success btn-lg">Send</button>
 						</div>
+						<script>
+						var message = "";
+
+						$("#sendMessage").on("click", function() {
+						    message = $("#contact").serialize();
+						    $.ajax({
+						        url: "//formspree.io/ronvoss@rvoss.com", 
+						        method: "POST",
+						        data: {message: message},
+						        dataType: "json"
+						    });
+						    alert('Thanks for the email, we\'ll be in touch promptly.');
+						    return false;
+						});
+						</script>
 					</div>
 				</form>
 			</div>
